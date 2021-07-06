@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstName": "akabil@ancbusiness.com",
+      "lastName": "k",
+      "mobile": "908687869",
+      "salary": "597575",
+      "id": 2
+    },
+    {
+      "firstName": "Kiran",
+      "lastName": "K",
+      "mobile": "9745317904",
+      "salary": "23,000",
+      "id": 3
+    },
+    {
+      "firstName": "Vishnu",
+      "lastName": "Krishna",
+      "mobile": "9745317909",
+      "salary": "8787",
+      "id": 4
+    },
+    {
+      "firstName": "Arun",
+      "lastName": "k",
+      "mobile": "885555995",
+      "salary": "39,333",
+      "id": 5
+    },
+    {
+      "firstName": "Livin",
+      "lastName": "Krish",
+      "mobile": "988956995",
+      "salary": "86,333",
+      "id": 6
+    },
+    {
+      "firstName": "akabil@ancbusiness.com",
+      "lastName": "k",
+      "mobile": "9087089o",
+      "salary": "9897",
+      "id": 7
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "mobile": "",
+      "salary": "",
+      "id": 8
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "mobile": "",
+      "salary": "",
+      "id": 9
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "mobile": "",
+      "salary": "",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
