@@ -52,12 +52,35 @@ this.employeeData=Response;
 }
 deleteEmployee(emp:any)
 {
- this.api.deleteEmployee(emp.id).subscribe((Response)=>
+ this.api.deleteEmploye(emp.id).subscribe((Response)=>
  {
    console.log(Response);
    alert("Employee Deleted");
    this.getAllEmployee();
  })
 }
+onEdit(emp : any)
+{
+  this.employeeobj.id=emp.id;
+this.formvalue.controls['firstName'].setValue(emp.firstName)
+this.formvalue.controls['lastName'].setValue(emp.lastName)
+this.formvalue.controls['mobile'].setValue(emp.mobile)
+this.formvalue.controls['salary'].setValue(emp.salary)
+}
+updateEmployee()
+{
+  this.employeeobj.firstName=this.formvalue.value.firstName;
+  this.employeeobj.lastName=this.formvalue.value.lastName;
+  this.employeeobj.mobile=this.formvalue.value.mobile;
+  this.employeeobj.salary=this.formvalue.value.salary;
+  this.api.updateEmploye(this.employeeobj,this.employeeobj.id).subscribe((Response)=>
+  {
+alert("Update successfuly");
+let ref= document.getElementById("cancel")
+     ref?.click();//cancel button
+     this.formvalue.reset();
+     this.getAllEmployee();
+  })
 
+}
 }

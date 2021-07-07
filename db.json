@@ -1,16 +1,11 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "firstName": "akabil@ancbusiness.com",
+      "id": 2,
+      "firstName": "Arun",
       "lastName": "k",
       "mobile": "908687869",
-      "salary": "597575",
-      "id": 2
+      "salary": "597575"
     },
     {
       "firstName": "Kiran",
@@ -41,41 +36,14 @@
       "id": 6
     },
     {
-      "firstName": "akabil@ancbusiness.com",
+      "id": 7,
+      "firstName": "Kabil",
       "lastName": "k",
       "mobile": "9087089o",
-      "salary": "9897",
-      "id": 7
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "mobile": "",
-      "salary": "",
-      "id": 8
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "mobile": "",
-      "salary": "",
-      "id": 9
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "mobile": "",
-      "salary": "",
-      "id": 10
+      "salary": ""
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

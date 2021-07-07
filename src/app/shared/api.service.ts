@@ -16,21 +16,21 @@ export class ApiService {
   }
   getEmploye()
   {
-    return this.http.get('http://localhost:3000/posts').pipe(map((Response)=>
+    return this.http.get('http://localhost:3000/posts/').pipe(map((Response)=>
     {
       return Response;
     }))
   }
   updateEmploye(data : any,id:number)
   {
-return this.http.put<any>('http://localhost:3000/posts'+id,data).pipe(map((Response)=>
+return this.http.put<any>('http://localhost:3000/posts/'+id,data).pipe(map((Response)=>
 {
 
 }))
   }
-  deleteEmployee(id:number)
+  deleteEmploye(id:number)
   {
-    return this.http.delete('http://localhost:3000/posts'+id).pipe(map((Response:any)=>
+    return this.http.delete<any>("http://localhost:3000/posts/"+id).pipe(map((Response:any)=>
     {
 return Response;
     }))
